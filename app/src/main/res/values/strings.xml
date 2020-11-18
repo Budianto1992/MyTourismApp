@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyTourismApp</string>
+    <string name="Home">Home</string>
+    <string name="Maps">Maps</string>
+    <string name="favorite">Favorite</string>
+    <string name="image_description">Image Description</string>
+    <string name="text_primary">Simple of the Title</string>
+    <string name="text_subtitle">Simple of the Subtitle</string>
+    <string name="something_wrong">Terjadi Kesalahan</string>
+    <string name="no_data">Data Kosong</string>
+</resources>
