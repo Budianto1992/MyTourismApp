@@ -11,10 +11,7 @@ data class RegisterRequest(
     val email: String?,
 
     @field:SerializedName("password")
-    val password: String?,
-
-    @field:SerializedName("langKey")
-    var langKey: String?
+    val password: String?
 )
 
-fun User.toRegisterRequest(): RegisterRequest = RegisterRequest(username, email, password, langKey)
+fun User.toRegisterRequest(): RegisterRequest = RegisterRequest(username, email, password)

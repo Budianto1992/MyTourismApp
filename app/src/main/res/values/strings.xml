@@ -35,4 +35,37 @@
     <string name="no_account">Do You No Have Account? Please Register</string>
     <string name="successful_authentication">Successful authentication</string>
     <string name="invalid_authentication">Invalid authentication</string>
+    <string name="reset_password_validate">Reset Password</string>
+    <string name="username_empty_error">Your username is required</string>
+    <string name="username_pattern_error">Your username can only contain letters and digits</string>
+    <string name="email_error">The email is not correct</string>
+    <string name="password_length_error">The password is required to be at least 4 characters</string>
+    <string name="password_match_error">The password and its confirmation do not match!</string>
+    <string name="changed_password_init">Check your emails for details on how to reset your password</string>
+    <string name="changed_password_init_error">Error resetting password</string>
+    <string name="new_password">New Password</string>
+    <string name="validate_new_password">Validate New Password</string>
+    <string name="updating_password">Updating Password</string>
+    <string name="successful_registration">Registration saved! Please check your email for confirmation</string>
+    <string name="account">Account</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="settings">Settings</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="logout_successful">Logout Successful</string>
+    <string name="error_logout">Invalid Logout, Please Try Again!</string>
+    <string name="user_account_activate">Your user account has been activated</string>
+    <string name="user_account_error">Your user could not be activated. Please use the registration form to sign up</string>
+    <string name="settings_saved_error">Error saving settings, try again</string>
+    <string name="prompt_firstName">First Name</string>
+    <string name="prompt_lastName">Last Name</string>
+    <string name="save">Save</string>
+    <string name="settings_save">Setting Save</string>
+    <string name="updating_setting">Setting Update</string>
+    <string name="prompt_current_password">Current Password</string>
+    <string name="prompt_new_password">New Password</string>
+    <string name="prompt_new_password_confirmation">New Confirmation Password</string>
+    <string name="password_change">Password Has Been Changed</string>
+    <string name="incorrect_password">Incorrect Password</string>
+    <string name="booking_destination">Booking Destination</string>
 </resources>

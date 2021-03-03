@@ -35,6 +35,18 @@
             android:text="@string/go_to_location"
             app:layout_constraintTop_toBottomOf="@+id/tv_detail_description"
             tools:layout_editor_absoluteX="-16dp" />
+
+        <Button
+            android:id="@+id/btnBooking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_marginTop="272dp"
+            android:textColor="@color/colorWhite"
+            android:text="@string/booking_destination"
+            app:layout_constraintTop_toBottomOf="@+id/btnLocation"
+            app:layout_constraintStart_toStartOf="@id/btnLocation"
+            app:layout_constraintEnd_toEndOf="@id/btnBooking"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 

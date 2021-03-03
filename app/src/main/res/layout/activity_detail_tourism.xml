@@ -23,16 +23,17 @@
             app:toolbarId="@+id/toolbar">
 
             <ImageView
-                android:id="@+id/text_detail_image"
+                android:id="@+id/iv_detail_image"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/image_description"
                 android:scaleType="centerCrop" />
 
+
         </com.google.android.material.appbar.CollapsingToolbarLayout>
     </com.google.android.material.appbar.AppBarLayout>
 
-    <include layout="@layout/content_detail_tourism" />
+    <include android:id="@+id/content" layout="@layout/content_detail_tourism" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"

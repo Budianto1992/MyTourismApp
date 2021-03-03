@@ -19,7 +19,12 @@ import com.budianto.mytourismapp.core.domain.usecase.user.updateuser.UpdateUserU
 import com.budianto.mytourismapp.detail.DetailTourismViewModel
 import com.budianto.mytourismapp.favorite.FavoriteViewModel
 import com.budianto.mytourismapp.home.HomeViewModel
+import com.budianto.mytourismapp.shared.SharedViewModel
+import com.budianto.mytourismapp.shared.ValidatorService
+import com.budianto.mytourismapp.user.account.password.PasswordViewModel
+import com.budianto.mytourismapp.user.account.setting.SettingViewModel
 import com.budianto.mytourismapp.user.login.LoginViewModel
+import com.budianto.mytourismapp.user.register.RegisterViewModel
 import org.koin.android.viewmodel.dsl.viewModel
 import org.koin.dsl.module
 
@@ -45,4 +50,10 @@ val viewModelModule = module {
     viewModel { DetailTourismViewModel(get()) }
 
     viewModel { LoginViewModel(get(), get()) }
+    viewModel { PasswordViewModel(get(), get(), get()) }
+    viewModel { RegisterViewModel(get(), get()) }
+    viewModel { SettingViewModel(get(), get()) }
+
+    single { ValidatorService() }
+    single { SharedViewModel() }
 }

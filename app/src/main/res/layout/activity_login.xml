@@ -90,7 +90,7 @@
         android:layout_marginTop="284dp"
         android:text="@string/no_account"
         android:textColor="@android:color/black"
-        android:textSize="18sp"
+        android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

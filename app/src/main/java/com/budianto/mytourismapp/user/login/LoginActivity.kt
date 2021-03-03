@@ -13,7 +13,7 @@ import com.budianto.mytourismapp.R
 import com.budianto.mytourismapp.core.domain.model.state.AuthenticationState
 import com.budianto.mytourismapp.databinding.ActivityLoginBinding
 import com.budianto.mytourismapp.shared.SharedViewModel
-import com.budianto.mytourismapp.user.account.ForgetPasswordActivity
+import com.budianto.mytourismapp.user.account.password.ForgetPasswordActivity
 import com.budianto.mytourismapp.user.register.RegisterActivity
 import com.budianto.mytourismapp.view.ViewElement
 import org.koin.android.viewmodel.ext.android.viewModel

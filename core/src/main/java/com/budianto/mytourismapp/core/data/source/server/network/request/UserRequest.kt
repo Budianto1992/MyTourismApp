@@ -10,9 +10,6 @@ data class UserRequest(
         @SerializedName("email")
         val email: String?,
 
-        @SerializedName("langKey")
-        var langKey: String?,
-
         @SerializedName("firstName")
         val firstName: String?,
 
@@ -21,5 +18,5 @@ data class UserRequest(
 )
 
 fun User.toRequest(): UserRequest = UserRequest(
-        username, email, langKey, firstName, lastName
+        username, email, firstName, lastName
 )
