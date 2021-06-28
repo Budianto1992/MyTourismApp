@@ -7,6 +7,38 @@
     android:layout_height="match_parent"
     tools:context="com.budianto.mytourismapp.home.HomeFragment">
 
+<<<<<<< HEAD
+=======
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarHome"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/headContent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvLogin"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:text="@string/masukordaftar"
+                android:textColor="@android:color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+>>>>>>> Login/Register
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_tourism"
         android:layout_width="0dp"
@@ -15,7 +47,11 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+<<<<<<< HEAD
         app:layout_constraintTop_toTopOf="parent"
+=======
+        app:layout_constraintTop_toBottomOf="@+id/appBarHome"
+>>>>>>> Login/Register
         tools:listitem="@layout/items_list_tourism">
 
     </androidx.recyclerview.widget.RecyclerView>

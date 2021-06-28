@@ -16,4 +16,12 @@
         android:icon="@drawable/ic_baseline_favorite_24"
         android:title="@string/favorite"/>
 
+<<<<<<< HEAD
+=======
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="@string/profile" />
+
+>>>>>>> Login/Register
 </menu>

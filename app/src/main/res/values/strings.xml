@@ -8,4 +8,10 @@
     <string name="text_subtitle">Simple of the Subtitle</string>
     <string name="something_wrong">Terjadi Kesalahan</string>
     <string name="no_data">Data Kosong</string>
+<<<<<<< HEAD
+=======
+    <string name="profile">Profile</string>
+    <string name="daftar">Daftar</string>
+    <string name="masukordaftar">Masuk / Daftar</string>
+>>>>>>> Login/Register
 </resources>
